@@ -283,8 +283,8 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
+    font-style: normal ;
+    line-height: 25px;
 }
 
 header .intro-text .intro-heading {
@@ -293,6 +293,7 @@ header .intro-text .intro-heading {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
+    font-style: italic;
     line-height: 50px;
 }
 
