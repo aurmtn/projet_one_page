@@ -263,18 +263,34 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(https://unsplash.imgix.net/uploads%2F14115408840644deb16b0%2F2dc933e3?q=75&fm=jpg&auto=format&s=7f43646e4d26049c6c39890afb2e5ced);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    color: rgb(0, 0, 0);
 }
 
-header .intro-text {
+#titre {
+    font-family: 'PT Sans Narrow';
+    font-size: 100px;
+    font-weight: bold;
+    color: #2e2633;
+    margin-top: 5%;
+    z-index: 10;
+}
+
+.page-header-bg-image {
+    position: absolute;
+    width: 100%;
+    height: 93%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    z-index: 1;
+    opacity: 70%;
+    margin-top: 3.2%;
+    
+}
+
+    header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -322,110 +338,121 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 8rem;
 }
 
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 40px;
-}
-
-section h3.section-subheading {
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
-}
-
-.service-heading {
-    margin: 15px 0;
-    text-transform: none;
-}
-
-#portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
-}
-
-#portfolio .portfolio-item .portfolio-link {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    max-width: 400px;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background: #1ee2e7;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 20px;
-    margin-top: -12px;
+section h2.periple-heading {
+    margin-top: 20rem;
+    font-size: 3rem;
+    width: 80rem;
     text-align: center;
-    font-size: 20px;
-    color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-    margin-top: -12px;
+#road {
+    margin-left: 70%;
+    margin-top: 15%;
+    width: 40rem;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-    margin: 0;
+#p1road {
+    font-size: 1.5rem;
+    margin-left: -20rem;
+    margin-top: -18rem;
+    width: 55rem;
+    text-align: justify;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
-    margin: 0 auto;
-    padding: 25px;
-    max-width: 400px;
-    text-align: center;
-    background-color: #fff;
+.sc-separator.type-thin {
+    border-top: 1px solid #8c919b;
+    margin-top: 10rem;
+    align-items: center;
+    width: 50rem;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
-    margin: 0;
-    text-transform: none;
+.flotte {
+    float: left;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
-    margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
+#bridge {
+    margin-left: -15rem;
+    margin-top: -8rem;
+    width: 40rem;
 }
 
-#portfolio * {
-    z-index: 2;
+#h3 {
+    padding-top: 15rem;
+    padding-left: 30.5rem;
 }
 
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
+#p1bridge {
+    font-size: 1.5rem;
+    margin-left: 30rem;
+    margin-top: -47rem;
+    width: 55rem;
+    text-align: justify;
+}
+
+#p2bridge {
+    font-size: 1.5rem;
+    margin-left: 30rem;
+    margin-top: -24rem;
+    width: 55rem;
+    text-align: justify;
+}
+
+#p3bridge {
+    font-size: 1.5rem;
+    margin-left: 30rem;
+    margin-top: -18rem;
+    width: 55rem;
+    text-align: justify;
+}
+
+.flotte2 {
+    float: right;
+}
+
+#Yosemite {
+    margin-left: 70%;
+    margin-top: -15%;
+    width: 36rem;
+}
+
+#h4 {
+    padding-top: 10rem;
+    margin-left: -20rem;
+}
+
+#p1Yosemite {
+    font-size: 1.5rem;
+    margin-left: -20rem;
+    margin-top: -43rem;
+    width: 55rem;
+    text-align: justify;
+}
+
+#p2Yosemite {
+    font-size: 1.5rem;
+    margin-left: -55rem;
+    margin-top: -34rem;
+    width: 55rem;
+    text-align: justify;
+}
+
+#p3Yosemite {
+    font-size: 1.5rem;
+    margin-left: -55rem;
+    margin-top: -27rem;
+    width: 55rem;
+    text-align: justify;
+}
+
+#p4Yosemite {
+    font-size: 1.5rem;
+    margin-left: -55rem;
+    margin-top: -20rem;
+    width: 55rem;
+    text-align: justify;
 }
 
 .timeline {
