@@ -1,0 +1,22 @@
+html, body { 
+    height: 100%; 
+    padding: 0; 
+    margin: 0; }
+
+div { 
+    width: 50%; 
+    height: 50%; 
+    float: left; }
+
+#japon { 
+    background-image: url("..\japon.jpeg"); }
+
+    
+#tanzanie { 
+    background: #AAA; }
+
+#usa { 
+    background: #777; }
+
+#bali { 
+    background: #444; }
