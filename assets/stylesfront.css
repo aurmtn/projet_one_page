@@ -1,22 +1,54 @@
-html, body { 
-    height: 100%; 
-    padding: 0; 
-    margin: 0; }
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
 
-div { 
-    width: 50%; 
-    height: 50%; 
-    float: left; }
+div {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
 
-#japon { 
-    background-image: url("..\japon.jpeg"); }
+#japon {
+  background-image: url(./japon.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#japon:hover {
+  opacity: 60%;
+}
 
     
-#tanzanie { 
-    background: #AAA; }
 
-#usa { 
-    background: #777; }
+#tanzanie {
+  background-image: url(./tanzania.jpeg);
+  background-position: center;
+  background-size: cover;
+}
 
-#bali { 
-    background: #444; }
+#tanzanie:hover {
+    opacity: 60%;
+  }
+
+#usa {
+  background-image: url(./usa.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+#usa:hover {
+    opacity: 60%;
+  }
+
+#bali {
+  background-image: url(./bali.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+#bali:hover {
+    opacity: 60%;
+  }
