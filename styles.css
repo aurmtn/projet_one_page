@@ -535,6 +535,132 @@ section h2.periple-heading {
     text-align: justify;
 }
 
+.flotte5 {
+    float: left;
+}
+
+#bryce {
+    margin-left: -16rem;
+    margin-top: -12%;
+    width: 36rem;
+}
+
+#h7 {
+    padding-top: 10rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+}
+
+#p1bryce{
+    font-size: 1.5rem;
+    margin-left: 30rem;
+    margin-top: -40rem;
+    width: 60rem;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+#p2bryce {
+    font-size: 1.5rem;
+    margin-left: 30rem;
+    margin-top: -32rem;
+    width: 55rem;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+#p3bryce {
+    font-size: 1.5rem;
+    margin-left: 30rem;
+    margin-top: -24rem;
+    width: 55rem;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.flotte4 {
+    float: right;
+}
+
+#antelope {
+    margin-left: 70%;
+    margin-top: -15%;
+    width: 36rem;
+}
+
+#h8 {
+    padding-top: 10rem;
+    margin-left: -20rem;
+    font-size: 2rem;
+}
+
+#p1antelope {
+    font-size: 1.5rem;
+    margin-left: -20rem;
+    margin-top: -39rem;
+    width: 55rem;
+    text-align: justify;
+}
+
+#p2antelope {
+    font-size: 1.5rem;
+    margin-left: -55rem;
+    margin-top: -30rem;
+    width: 55rem;
+    text-align: justify;
+}
+
+#p3antelope {
+    font-size: 1.5rem;
+    margin-left: -55rem;
+    margin-top: -23rem;
+    width: 55rem;
+    text-align: justify;
+}
+
+.flotte5 {
+    float: left;
+}
+
+#canyon {
+    margin-left: -16rem;
+    margin-top: -12%;
+    width: 36rem;
+}
+
+#h9 {
+    padding-top: 10rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+}
+
+#p1canyon{
+    font-size: 1.5rem;
+    margin-left: 30rem;
+    margin-top: -40rem;
+    width: 60rem;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+#p2canyon {
+    font-size: 1.5rem;
+    margin-left: 30rem;
+    margin-top: -32rem;
+    width: 55rem;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+#p3canyon {
+    font-size: 1.5rem;
+    margin-left: 30rem;
+    margin-top: -24rem;
+    width: 55rem;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
 .timeline {
     position: relative;
     padding: 0;
