@@ -98,10 +98,23 @@ a {
 }
 
 #Japon {
-    text-decoration: white;
-    font-weight: bold;
+    font-size: 1.5rem;
     font-style: italic;
+    margin-left: 2rem;
 }
+
+#Tanzanie{
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 2rem;
+}
+
+#Bali{
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 2rem;
+}
+
 
 header {
     text-align: center;
@@ -501,6 +514,21 @@ section h2.periple-heading {
     width: 55rem;
     font-size: 1.5rem;
     text-align: justify;
+}
+
+/* pagetanzanie */
+#pagetanzanie{
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10rem;
+
+}
+
+#backtanzanie {
+    width: 100%;
+    height: 100%;
 }
 
 footer {
